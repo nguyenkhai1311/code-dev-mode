@@ -1,3 +1,36 @@
-i {
-    color: #d9bbbb;
+/* 16.6 ID và Class */
+body {
+    padding-left: 32px;
+    font-size: 120%;
+    line-height: 1.6;
+    font-family: "Montserrat";
+}
+
+/* 16.38 Not selector */
+body {
+    padding-left: 32px;
+    font-size: 120%;
+    font-family: "Montserrat";
+}
+
+/* 17.10 Thuộc tính border #3  */
+body {
+    font-size: 120%;
+    font-family: "Montserrat";
+}
+
+/* 17.39 Thuộc tính box-sizing */
+.box {
+    /* content */
+    width: 170px;
+    height: 170px;
+
+    /* padding */
+    padding: 10px;
+
+    /* border  */
+    border: 5px solid green;
+
+    background-color: orange;
+    margin: 0 auto;
 }
