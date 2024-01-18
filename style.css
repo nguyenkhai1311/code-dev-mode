@@ -6,6 +6,14 @@ body {
     font-family: "Montserrat";
 }
 
+/* 16.20 Combinator selectors */
+body {
+    padding-left: 28px;
+    font-family: "Montserrat";
+    font-size: 120%;
+    line-height: 1.6;
+}
+
 /* 16.38 Not selector */
 body {
     padding-left: 32px;
@@ -33,4 +41,170 @@ body {
 
     background-color: orange;
     margin: 0 auto;
+}
+
+/* 16.24 Pseudo-classes selectors #1 */
+body {
+    padding-left: 28px;
+    font-family: Montserrat;
+    font-size: 120%;
+    line-height: 1.6;
+}
+
+/* 16.25 Pseudo-classes selectors #2 */
+body {
+    padding-left: 28px;
+    font-family: Montserrat;
+    font-size: 120%;
+    line-height: 1.6;
+}
+
+/* 16.46 Nắm vững CSS selectors #1 */
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/* 15.10 Thuộc tính opacity */
+h2 {
+    display: none;
+}
+
+/* 15.13 Thuộc tính visibility */
+h2 {
+    opacity: 0
+}
+
+/* 16.28 Child selectors */
+body {
+    padding-left: 32px;
+    font-family: Montserrat;
+    font-size:  120%;
+}
+
+/* 16.34 Type selectors */
+body {
+    padding-left: 32px;
+    font-family: Montserrat;
+    font-size:  120%;
+}
+
+/* 17.4 Thuộc tính padding */
+body {
+    font-family: Montserrat;
+    font-size: 120%;
+}
+
+div {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* 17.8 Thuộc tính border #1 */
+body {
+    font-family: Montserrat;
+    font-size:  120%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 20px solid green;
+}
+
+/* 17.9 Thuộc tính border #1 */
+body {
+    font-family: Montserrat;
+    font-size:  120%;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+
+    /* border: 20px dashed green; */
+
+    border-width: 20px;
+    border-style: solid;
+    border-color: green blue violet red;
+}
+
+/* 17.19 Thuộc tính border-radius */
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    border-radius: 50px;
+}
+
+/* 17.24 Thuộc tính outline */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+    border: 8px solid green
+}
+
+/* 17.28 Thuộc tính margin #1 */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+}
+
+/* 17.33 Thuộc tính margin #6 */
+* {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+/* 17.34 Thuộc tính margin #7 */
+* {
+    margin: 0;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+.box-2 {
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+
+.box-3 {
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+}
+
+/* 17.35 Margin Collapse là gì? */
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.4;
+    font-size: 120%;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    /* margin-bottom: 50px; */
+    background-color: green;
+}
+
+p {
+    /* margin-top: 50px; */
+    background-color: violet;
 }
