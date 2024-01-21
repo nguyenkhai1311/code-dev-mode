@@ -6,6 +6,9 @@
   <li>Lib/FW: ReactJS hoặc VueJS hoặc Angular</li>
 </ol>
 
+<!-- 8.1 Thẻ a -->
+<a href="https://google.com/search?q=hoc%20html%20css">Tới Google</a>
+
 <!-- 8.16 Kết hợp với menu, mục lục -->
 <ul>
   <li>Global</li>
@@ -25,13 +28,19 @@
   <li>Tools</li>
 </ul>
 
+<!-- 9.10 Các định dạng ảnh #2 -->
+<img 
+    src="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png" 
+    alt="F8" 
+/>
+
 <!-- 11.1 Comments trong HTML -->
 <h1>Comments</h1>
 
 <!-- alt hiển thị khi ảnh lỗi -->
 <img 
     src="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png" 
-    alt="F8"
+    alt="F8" 
 />
 
 <!-- 11.7 Các khoảng trống -->
@@ -43,12 +52,97 @@
   Phone: 0123456789
 </p>
 
+<!-- 11.11 Thẻ pre -->
+<pre>
+  Đoạn văn này sẽ xuống hàng
+và    có    khoảng    cách    xa
+hoặc xuống
+
+nhiều
+
+hàng
+</pre>
+
+<!-- 11.18 Non-breaking space Entity -->
+<h1>Non-breaking space Entity</h1>
+
+<!-- 11.21 Thẻ code #1 -->
+<p>Qua bài học trước, chúng ta đã được học về thành phần thẻ <head> là nơi chứa các thành phần thẻ meta</p>
+
+<!-- 13.7 Cách sử dụng CSS #1 -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <!-- Internal -->
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Inline -->
+    <h1 style="">Cách sử dụng CSS</h1>
+    <ul>
+      <li>
+        Cách sử dụng CSS
+        <ul>
+          <li>External (bên ngoài)</li>
+          <li>Internal (nội bộ)</li>
+          <li>Inline (nội tuyến)</li>
+        </ul>
+      </li>
+      <li>Độ ưu tiên của từng cách sử dụng
+        <ul>
+          <li>Internal, External: Viết sau ưu tiên hơn</li>
+          <li>Inline: Ưu tiên hơn Internal, External</li>
+        </ul>
+      </li>
+    </ul>
+</body>
+</html>
+
+<!-- 15.1 Thẻ inline, block #1 -->
+<h1>Inline & Block</h1>
+
+<!-- 15.2 Thẻ inline, block #2 -->
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos totam, explicabo molestias repellat veniam facere <strong>maxime</strong>, dolorum asperiores sint sit placeat, iste minima quae ullam inventore. Ea inventore aspernatur alias?
+</p>
+
+<!-- 15.7 Thuộc tính display -->
+<h1>Heading 1</h1>
+
+<!-- 15.10 Thuộc tính opacity -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+
+<!-- 15.13 Thuộc tính visibility -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+
+<!-- 15.16 So sánh display, opacity và visibility -->
+<h1>Học <strong>HTML CSS</strong> tại F8</h1>
+
 <!-- 15.20 So sánh display, opacity và visibility -->
 <input type="checkbox"> Ẩn hình ảnh
 <figure>
   <img src="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png" alt="F8">
 </figure>
 <p>Thành phần khác</p>
+
+<!-- 16.1 CSS selectors là gì? -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
 
 <!-- 16.6 ID và Class -->
 <h1>Heading 1</h1>
@@ -92,6 +186,25 @@
 
 <p>Text 4</p>
 
+<!-- 16.24 Pseudo-classes selectors #1 -->
+<h1>Heading</h1>
+
+<!-- 16.25 Pseudo-classes selectors #2 -->
+<h1>Heading</h1>
+
+<!-- 16.28 Child selectors -->
+<div>
+  <p>Text 1</p>
+  <p>Text 2</p>
+  <p>Text 3</p>
+</div>
+
+<!-- 16.34 Type selectors -->
+<div>
+  <p>Text 1</p>
+  <p>Text 2</p>
+  <p>Text 3</p>
+</div>
 
 <!-- 16.38 Not selector -->
 <h1 class="highlight">Heading 1</h1>
@@ -114,58 +227,6 @@
     <li>Item 2</li>
     <li>Item 3</li>
   </ul>
-</div>
-
-<!-- 17.39 Thuộc tính box-sizing  -->
-<div class="box"></div>
-
-<!-- 16.24 Pseudo-classes selectors #1 -->
-<h1>Heading</h1>
-
-<!-- 16.25 Pseudo-classes selectors #2 -->
-<h1>Heading</h1>
-
-<!-- 15.1 Thẻ inline, block #1 -->
-<h1>Inline & Block</h1>
-
-<!-- 15.2 Thẻ inline, block #2 -->
-<p>
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos totam, explicabo molestias repellat veniam facere <strong>maxime</strong>, dolorum asperiores sint sit placeat, iste minima quae ullam inventore. Ea inventore aspernatur alias?
-</p>
-
-<!-- 15.7 Thuộc tính display -->
-<h1>Heading 1</h1>
-
-<!-- 15.10 Thuộc tính opacity -->
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-
-<!-- 15.13 Thuộc tính visibility -->
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-
-<!-- 15.16 So sánh display, opacity và visibility -->
-<h1>Học <strong>HTML CSS</strong> tại F8</h1>
-
-<!-- 16.1 CSS selectors là gì? -->
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-
-<!-- 16.28 Child selectors -->
-<div>
-  <p>Text 1</p>
-  <p>Text 2</p>
-  <p>Text 3</p>
-</div>
-
-<!-- 16.34 Type selectors -->
-<div>
-  <p>Text 1</p>
-  <p>Text 2</p>
-  <p>Text 3</p>
 </div>
 
 <!-- 17.1 Box Model là gì? -->
@@ -206,3 +267,6 @@
 <!-- 17.35 Margin Collapse là gì? -->
 <h1>Heading</h1>
 <p>Paragraph</p>
+
+<!-- 17.39 Thuộc tính box-sizing  -->
+<div class="box"></div>
