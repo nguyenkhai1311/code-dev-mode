@@ -216,3 +216,401 @@ p {
     background-color: orange;
     margin: 0 auto;
 }
+
+/* 18.4 Đơn vị px */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-1 {
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+}
+
+.box-2 {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+}
+
+/* 18.8 Đơn vị %, vw, vh #1 */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 18.9 Đơn vị %, vw, vh #2 */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 18.13 Đơn vị em */
+body {
+    line-height: 1.6;
+}
+
+.box {
+    font-size: 10px;
+    background-color: orange;
+}
+
+/* 18.17 Đơn vị rem */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 19.1 Màu sắc trong CSS */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+/* 19.7 Quy đổi RGB sang Hex */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+/* 19.10 Một số cách viết màu sắc khác */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 0, 0);
+}
+
+/* 19.12 Trường hợp sử dụng màu sắc */
+body{
+  font-family: Montserrat;
+  font-size: 120%;
+  padding: 32px;
+}
+
+h1 {
+
+}
+
+/* 20.1 Background-color #1 */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: orange;
+}
+
+.box {
+   width: 200px;
+   height: 200px;
+}
+
+/* 20.9 Background-image #4 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 80px auto 0;
+  background-color: orange;
+}
+
+/* 20.11 Background-size #1 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  border: 3px dotted #ccc;
+  margin: 20px;
+  background-image: url(https://htmlcss.fullstack.edu.vn/assets/f8_icon.png);
+}
+
+/* 20.14 Background-position */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 310px;
+  border: 3px dotted #ccc;
+  margin: 30px;
+  background-image: url(https://images.unsplash.com/photo-1705599773334-b73b8f707101?q=80&w=2014&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: 750px;
+}
+
+/* 20.15 Background-position #1 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cover-img {
+  height: 200px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1703385177412-2f4930c9fe2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+/* 20.16 Background-position #2 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 100px;
+}
+
+.icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yV/r/3Sd4hjvXASJ.png?_nc_eui2=AeHGvbH2TaxyghOhetSwYfLQRLm7nzju851EubufOO7zndkZJsJo_WBhgEMQA7IWyGy-Woh9Y22_Ht3WsRpSuadQ);
+    background-position: 0px -642px;
+    background-size: 26px 1636px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+/* 20.20 Background-attachment */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    line-height: 1.6;
+    padding: 16px;
+}
+
+.bg {
+    height: 240px;
+    background-image: url(https://images.unsplash.com/photo-1705232497552-abd05ad64485?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 20.22 Background-clip */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 20px;
+  }
+  
+  .bg {
+    height: 240px;
+    border: 30px dotted green;
+    padding: 30px;
+    
+    background-color: orange;
+    
+  /* background-image: url(https://images.unsplash.com/photo-1682686580003-22d3d65399a8?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover; */
+  }
+  
+  /* 20.25 Cách làm chữ chuyển màu */
+  body {
+    font-family: Montserrat;
+    line-height: 1.6;
+    padding: 16px;
+  }
+  
+  .highlight {
+    
+  }
+  
+  /* 20.27 Background-origin */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg {
+    height: 300px;
+    padding: 30px;
+  /*   border: 30px solid green;  */
+    background-image: url(https://images.unsplash.com/photo-1705609140398-6b5b54814e37?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+  }
+  
+  /* 20.32 Background shorthands */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg {
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1682686581551-867e0b208bd1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /*  
+  background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+  */
+  
+  /* 20.36 Backdrop-filter */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(https://files.fullstack.edu.vn/f8-prod/public-images/62f4df3a83d39.png) 0 0 / cover;
+  }
+  
+  .blur {
+    
+  }
+  
+  /* 21.1 Tổng quan về font chữ */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 24px;
+  }
+  
+  /* 21.8 Font-family là gì? */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* 21.9 Nhúng Google Fonts */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 24px;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  /* 21.15 Fonts chữ hệ thống */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 24px;
+  }
+  
+  p {
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  /* 21.18 Làm việc với font chữ #1 */
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0 24px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  /* 21.22 Làm việc với font chữ #2 */
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0 24px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* 21.26 Làm việc với font chữ #3 */
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* 21.30 Hiển thị dấu 3 chấm khi nội dung dài */
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  h1 {
+    background: orange;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
