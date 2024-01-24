@@ -1,0 +1,344 @@
+<!-- 38.5 Sử dụng Grid layout -->
+<div class="container">
+  
+</div>
+
+<!-- 38.7 Làm việc với Columns -->
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+</div>
+
+<!-- 38.8 Làm việc với Rows -->
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+  <div class="item item-6">Item 6</div>
+  <div class="item item-7">Item 7</div>
+  <div class="item item-8">Item 8</div>
+</div>
+
+<!-- 38.9 Grid-row, grid-column -->
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+  <div class="item item-6">Item 6</div>
+  <div class="item item-7">Item 7</div>
+</div>
+
+<!-- 38.10 Sử dụng Grid area --> 
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+  <div class="item item-6">Item 6</div>
+  <div class="item item-7">Item 7</div>
+</div>
+
+<!-- 38.11 Align, justify trong Grid -->
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+</div>
+
+<!-- 38.12 Chỉ định hướng của Grid -->
+<div class="container">
+  <div class="item">Item</div>
+</div>
+
+<!-- 38.13 Grid auto-fill, auto-fit -->
+<div class="container">
+  <div class="item item-1">Item 1</div>
+  <div class="item item-2">Item 2</div>
+  <div class="item item-3">Item 3</div>
+  <div class="item item-4">Item 4</div>
+  <div class="item item-5">Item 5</div>
+</div>
+
+<!-- 40.1 Thẻ table -->
+<!--
+	Họ tên          |  Ngày sinh     |  Giới tính
+	Nguyễn Văn A    |  10/10/2002    |  Nam
+	Nguyễn Văn B    |  10/10/2002    |  Nam
+	Nguyễn Thị C    |  10/10/2002    |  Nữ
+-->
+
+<!-- 40.2 Hợp nhất hàng, cột -->
+<table>
+  <thead>
+    <tr>
+      <th>Họ tên</th>
+      <th>Ngày sinh</th>
+      <th>Giới tính</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nguyễn Văn A</td>
+      <td>10/10/2002</td>
+      <td>Nam</td>
+    </tr>
+    <tr>
+      <td>Nguyễn Văn B</td>
+      <td>10/10/2002</td>
+      <td>Nam</td>
+    </tr>
+    <tr>
+      <td>Nguyễn Thị C</td>
+      <td>10/10/2002</td>
+      <td>Nữ</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 40.8 CSS cho table -->
+<table>
+  <thead>
+    <tr>
+      <th>Họ tên</th>
+      <th>Ngày sinh</th>
+      <th>Giới tính</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nguyễn Văn A</td>
+      <td>10/10/2002</td>
+      <td>Nam</td>
+    </tr>
+    <tr>
+      <td>Nguyễn Văn B</td>
+      <td>10/10/2002</td>
+      <td>Nam</td>
+    </tr>
+    <tr>
+      <td>Nguyễn Thị C</td>
+      <td>10/10/2002</td>
+      <td>Nữ</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 41.12 Hiểu về submit form -->
+<form action="" autocomplete="off">
+  <div>
+    <label for="username">Tên đăng nhập</label><br />
+    <input 
+    	type="text" 
+    	name="" 
+    	id="username" 
+    	placeholder="Tên đăng nhập"
+    />
+  </div>
+  <br />
+  <div>
+    <label for="password">Mật khẩu</label><br />
+    <input 
+    	type="password" 
+    	name="" 
+    	id="password" 
+    	placeholder="Mật khẩu"
+    />
+  </div>
+</form>
+
+<!-- 41.18 Form validation -->
+<h1>Liên hệ</h1>
+
+<form action="" autocomplete="off">
+  <div>
+    <label for="username">Tên của bạn</label><br />
+    <input 
+    	type="text" 
+      name="name" 
+    	id="name" 
+    	placeholder="Nhập tên..."
+    />
+  </div>
+  <br />
+  <div>
+    <label for="email">Email</label><br />
+    <input 
+    	type="email" 
+      name="email" 
+      id="email" 
+      placeholder="Nhập email..."
+     />
+  </div>
+  <br />
+   <div>
+    <label for="phone">Số điện thoại</label><br />
+    <input 
+    	type="tel" 
+      name="phone" 
+      id="phone" 
+      placeholder="Nhập số điện thoại..."
+     />
+  </div>
+  <br />
+  <button type="submit">Gửi đi</button>
+</form>
+
+<!-- 41.21 Thuộc tính thẻ form -->
+<h1>Đăng ký</h1>
+
+<form action="" method="" autocomplete="off">
+  <div>
+    <label class="label" for="name">Tên của bạn</label><br />
+    <input 
+    	type="text" 
+      name="name" 
+    	id="name" 
+    	placeholder="Nhập tên..."
+    	required	
+    />
+  </div>
+  <br />
+  <div>
+    <label class="label">Giới tính</label><br />
+    <input type="radio" name="gender" id="male" value="male" />
+    <label for="male">Nam</label>
+    
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">Nữ</label>
+    
+    <input type="radio" name="gender" id="other" value="other" />
+    <label for="other">Khác</label>
+  </div>
+  <br />
+  <div>
+    <label class="label" for="avatar">Ảnh đại diện</label><br />
+    <input type="file" name="avatar" id="avatar" />
+  </div>
+  <br />
+  <div>
+    <label class="label" for="address">Địa chỉ</label><br />
+    <select name="address" id="address" required>
+      <option value="">-- Chọn --</option>
+      <option value="HN">Hà Nội</option>
+      <option value="HCM">Hồ Chí Minh</option>
+      <option value="DN">Đà Nẵng</option>
+    </select>
+  </div>
+  <br />
+  <div>
+    <label class="label" for="content">Nội dung</label><br />
+    <textarea 
+      type="text"
+      name="content" 
+      id="content"
+      rows="5"
+      placeholder="Nhập nội dung..."
+      required
+    ></textarea>
+  </div>
+  <br />
+  <button type="submit">Gửi đi</button>
+</form>
+
+<!-- 41.22 Thuộc tính thẻ input -->
+<h1>Đăng ký</h1>
+
+<form action="" method="" autocomplete="off">
+  <div>
+    <label class="label" for="name">Tên của bạn</label><br />
+    <input 
+        type="text" 
+        name="name" 
+        id="name" 
+        placeholder="Nhập tên..."
+        required	
+    />
+  </div>
+  <br />
+  <div>
+    <label class="label">Giới tính</label><br />
+    <input type="radio" name="gender" id="male" value="male" />
+    <label for="male">Nam</label>
+
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">Nữ</label>
+
+    <input type="radio" name="gender" id="other" value="other" />
+    <label for="other">Khác</label>
+  </div>
+  <br />
+  <div>
+    <label class="label" for="avatar">Ảnh đại diện</label><br />
+    <input type="file" name="avatar" id="avatar" />
+  </div>
+  <br />
+  <div>
+    <label class="label" for="address">Địa chỉ</label><br />
+    <select name="address" id="address" required>
+        <option value="">-- Chọn --</option>
+        <option value="HN">Hà Nội</option>
+        <option value="HCM">Hồ Chí Minh</option>
+        <option value="DN">Đà Nẵng</option>
+    </select>
+  </div>
+  <br />
+  <div>
+    <label class="label" for="content">Nội dung</label><br />
+    <textarea 
+        type="text"
+        name="content" 
+        id="content"
+        rows="5"
+        placeholder="Nhập nội dung..."
+        required
+    ></textarea>
+  </div>
+  <br />
+  <button type="submit">Gửi đi</button>
+</form>
+
+<!-- 41.28 Lưu ý font cho input, button -->
+<main>
+  <h1>Đăng bài</h1>
+
+  <form
+  action=""
+  autocomplete="off"
+  >
+    <div class="form-group">
+        <label for="title">Tiêu đề</label>
+        <input
+        type="text"
+        id="title"
+        name="title"
+        placeholder="Nhập tiêu đề..."
+        />
+    </div>
+
+    <div class="form-group">
+        <label for="content">Nội dung</label>
+        <textarea 
+        type="text"
+        name="content" 
+        id="content"
+        rows="5"
+        placeholder="Nhập nội dung..."
+        required
+        ></textarea> 
+    </div>
+
+    <div class="form-group">
+        <button class="btn" type="submit">Đăng bài</button>
+    </div>
+  </form>
+</main>
