@@ -1,0 +1,154 @@
+/* 54.5 Cách sử dụng Sass trong dự án */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+
+/* 54.10 Nested rules và variables trong Sass */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.card .thumb {
+  width: 100%;
+}
+
+.card .title {
+  font-size: 22px;
+}
+
+.card .desc {
+  font-size: 18px;
+}
+
+.card .btn-link {
+   color: #666;
+}
+
+/* 54.13 Extend và Placeholder selector trong Sass */
+$primary-color: #3479f8;
+$secondary-color: #6e757c;
+$success-color: #4fa450;
+$danger-color: #cc4648;
+$warning-color: #f6c43d;
+$info-color: #499fb6;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-success,
+.btn-danger,
+.btn-warning,
+.btn-info {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  
+  color: #fff;
+  background: $primary-color;
+  
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background: $secondary-color;
+}
+
+.btn-success {
+  background: $success-color;
+}
+
+.btn-danger {
+  background: $danger-color;
+}
+
+.btn-warning {
+  color: #333;
+  background: $warning-color;
+}
+
+.btn-info {
+  background: $info-color;
+}
+
+/* 54.15 Cách sử dụng mixins trong Sass */
+*, 
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 200px;
+  height: 200px;
+ 	background: orange;
+  
+  font: {
+    size: 30px;
+    weight: 600;
+  }
+}
+
+/* 54.16 @if, @media và mixin có @content trong Sass */
+*, 
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+  background: #ccc;
+  
+  .item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: olivedrab;
+  }
+}
+
+/* 54.22 Cách sử dụng if else và vòng lặp trong Sass */
+$condition: 10 == 10;

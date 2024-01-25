@@ -310,3 +310,61 @@ form {
 .form-group .btn:hover {
     opacity: 0.9;
 }
+
+/* 42.3 Toggle switch button */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+    font-family: system-ui, sans-serif;
+}
+  
+/* 44.1 Làm việc với transitions */
+* {
+    box-sizing: border-box;
+}
+  
+.box {
+    width: 200px;
+    height: 200px;
+    background: orange;
+}
+  
+  /* 44.2 Sử dụng thuộc tính transform */
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.box {
+    width: 200px;
+    height: 200px;
+    background: orange;
+}
+  
+  
+/* 59.2 Những khoảng trắng "kỳ lạ" quanh thẻ img? */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: system-ui;
+}
